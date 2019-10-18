@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="P1-P2-P3">
+  <Class id="A-A-A" type="Class">
+    <ClassName id="a-a-a" type="String" value="A" />
+  </Class>
+  <Class id="B-B-B" type="Class">
+    <ClassName id="b-b-b" type="String" value="B" />
+  </Class>
+  <Class id="C-C-C" type="Class">
+    <ClassName id="c-c-c" type="String" value="C" />
+  </Class>
+  <Class id="D-D-D" type="Class">
+    <ClassName id="d-d-d" type="String" value="D" />
+  </Class>
+  <Class id="I-I" type="Class">
+    <ClassName id="i-i" type="String" value="I" />
+  </Class>
+  <Class id="J-J" type="Class">
+    <ClassName id="j-j" type="String" value="J" />
+  </Class>
+  <Class id="E-E" type="Class">
+    <ClassName id="e-e" type="String" value="E" />
+  </Class>
+  <Class id="F-F" type="Class">
+    <ClassName id="f-f" type="String" value="F" />
+  </Class>
+  <Class id="G" type="Class">
+    <ClassName id="g" type="String" value="G" />
+  </Class>
+  <Class id="H" type="Class">
+    <ClassName id="h" type="String" value="H" />
+  </Class>
+</xmi>

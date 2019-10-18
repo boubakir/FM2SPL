@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="uml">
+	<role name="Model" level="0" category="0"/>
+  	<role name="Class" level="1" category="1"/>
+	<role name="ClassName" level="2" category="3"/>
+	<role name="ClassAttribute" level="2" category="1"/>
+	<role name="ClassOperation" level="2" category="1"/>
+	<role name="AttributeName" level="3" category="3"/>
+	<role name="AttributeType" level="3" category="3"/>
+	<role name="OperationName" level="3" category="3"/>
+	<role name="OperationType" level="3" category="3"/>
+	<role name="Parameter" level="3" category="2"/>
+	<role name="ParameterName" level="4" category="3"/>
+	<role name="ParameterType" level="4" category="3"/>
+	<criteria for="Model">
+		<criterion role="Class" weight="1"/>
+	</criteria>
+	<criteria for="Class">
+		<criterion role="ClassName" weight="1"/>
+		<criterion role="ClassAttribute" weight="0"/>
+		<criterion role="ClassOperation" weight="0"/>
+	</criteria>
+	<criteria for="ClassAttribute">
+		<criterion role="AttributeName" weight="1"/>
+		<criterion role="AttributeType" weight="0"/>
+	</criteria>
+	<criteria for="ClassOperation">
+		<criterion role="OperationName" weight="1"/>
+		<criterion role="OperationType" weight="0"/>
+		<criterion role="Parameter" weight="0"/>
+	</criteria>
+	<criteria for="Parameter">
+		<criterion role="ParameterName" weight="1"/>
+		<criterion role="ParameterType" weight="0"/>
+	</criteria>
+</xmi>

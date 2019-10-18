@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="notpad5">
+
+    <Class id="e1" type="Class">
+      <ClassName id="e2" type="String" value="Actions" />
+      <ClassAttribute id="e3" type="Attribute">
+        <AttributeName id="e4" type="String" value="findWord" />
+      </ClassAttribute>
+
+      <ClassOperation id="e5" type="Operation">
+        <OperationName id="e6" type="String" value="copy" />
+      </ClassOperation>
+
+
+      <ClassOperation id="e7" type="Operation">
+        <OperationName id="e8" type="String" value="cut" />
+      </ClassOperation>
+
+      <ClassOperation id="e9" type="Operation">
+        <OperationName id="e10" type="String" value="pastE" />
+      </ClassOperation>
+
+
+      <ClassOperation id="e11" type="Operation">
+        <OperationName id="e12" type="String" value="finD" />
+      </ClassOperation>
+
+
+      <ClassOperation id="e13" type="Operation">
+        <OperationName id="e14" type="String" value="findNext" />
+      </ClassOperation>
+
+    </Class>
+
+    <Class id="e15" type="Class">
+      <ClassName id="e16" type="String" value="NotePad" />
+      
+      <ClassAttribute id="e17" type="Attribute">
+        <AttributeName id="e18" type="String" value="copyButton" />
+      </ClassAttribute>
+      <ClassAttribute id="e19" type="Attribute">
+        <AttributeName id="e20" type="String" value="cutButton" />
+      </ClassAttribute>
+
+     <ClassAttribute id="e21" type="Attribute">
+        <AttributeName id="e22" type="String" value="pasteButton" />
+      </ClassAttribute>
+
+     <ClassAttribute id="e23" type="Attribute">
+        <AttributeName id="e24" type="String" value="finD" />
+      </ClassAttribute>
+      <ClassAttribute id="e25" type="Attribute">
+        <AttributeName id="e26" type="String" value="findButton" />
+      </ClassAttribute>
+
+      <ClassAttribute id="e27" type="Attribute">
+        <AttributeName id="e28" type="String" value="findNext" />
+      </ClassAttribute>
+
+    </Class>
+
+  <Class id="e29" type="Class">
+      <ClassName id="e30" type="String" value="ExamplFileFilter" />
+      </Class>
+
+
+
+  
+</xmi>

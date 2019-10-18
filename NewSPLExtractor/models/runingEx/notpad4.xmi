@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="notpad4">
+
+    <Class id="d1" type="Class">
+      <ClassName id="d2" type="String" value="Actions" />
+      <ClassAttribute id="d3" type="Attribute">
+        <AttributeName id="d4" type="String" value="findWord" />
+      </ClassAttribute>
+
+      <ClassOperation id="d5" type="Operation">
+        <OperationName id="d6" type="String" value="copy" />
+      </ClassOperation>
+
+
+      <ClassOperation id="d7" type="Operation">
+        <OperationName id="d8" type="String" value="cut" />
+      </ClassOperation>
+
+      <ClassOperation id="d9" type="Operation">
+        <OperationName id="d10" type="String" value="pastE" />
+      </ClassOperation>
+
+
+      <ClassOperation id="d11" type="Operation">
+        <OperationName id="d12" type="String" value="finD" />
+      </ClassOperation>
+
+
+      <ClassOperation id="d13" type="Operation">
+        <OperationName id="d14" type="String" value="findNext" />
+      </ClassOperation>
+
+    </Class>
+
+    <Class id="d15" type="Class">
+      <ClassName id="d16" type="String" value="NotePad" />
+      
+      <ClassAttribute id="d17" type="Attribute">
+        <AttributeName id="d18" type="String" value="copyButton" />
+      </ClassAttribute>
+      <ClassAttribute id="d19" type="Attribute">
+        <AttributeName id="d20" type="String" value="cutButton" />
+      </ClassAttribute>
+
+     <ClassAttribute id="d21" type="Attribute">
+        <AttributeName id="d22" type="String" value="pasteButton" />
+      </ClassAttribute>
+
+     <ClassAttribute id="d23" type="Attribute">
+        <AttributeName id="d24" type="String" value="finD" />
+      </ClassAttribute>
+      <ClassAttribute id="d25" type="Attribute">
+        <AttributeName id="d26" type="String" value="findButton" />
+      </ClassAttribute>
+
+      <ClassAttribute id="d27" type="Attribute">
+        <AttributeName id="d28" type="String" value="findNext" />
+      </ClassAttribute>
+
+    </Class>
+
+  <Class id="dooooooooooo" type="Class">
+      <ClassName id="doooooooo1" type="String" value="ExampleFileFilter" />
+      </Class>
+
+
+
+  
+</xmi>

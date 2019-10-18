@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="e">
+  <model type="">
+    <Class id="a1" type="Class">
+      <ClassName id="a2" type="String" value="Actions" />
+      <ClassAttribute id="a3" type="Attribute">
+        <AttributeName id="a4" type="String" value="findWord" />
+      </ClassAttribute>
+      <ClassOperation id="a5" type="Operation">
+        <OperationName id="a6" type="String" value="copy" />
+      </ClassOperation>
+    </Class>
+  </model>
+  <fm>
+    <feature name="base" type="mandatory" parent="root">
+      <element id="a1" />
+      <element id="a2" />
+      <element id="a3" />
+      <element id="a4" />
+      <element id="a5" />
+      <element id="a6" />
+    </feature>
+    <featureGroup id="variants" type="alternative" parent="root">
+      <feature name="1_Variant" type="variant" parent="variants" />
+    </featureGroup>
+  </fm>
+</xmi>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="pp">
+  <model type="">
+    <Class id="A-A-A-A" type="Class">
+      <ClassName id="a-a-a-a" type="String" value="A" />
+    </Class>
+    <Class id="B-B-B-B" type="Class">
+      <ClassName id="b-b-b-b" type="String" value="B" />
+    </Class>
+    <Class id="I-I-I" type="Class">
+      <ClassName id="i-i-i" type="String" value="I" />
+    </Class>
+    <Class id="J-J-J" type="Class">
+      <ClassName id="j-j-j" type="String" value="J" />
+    </Class>
+    <Class id="G-G" type="Class">
+      <ClassName id="g-g" type="String" value="G" />
+    </Class>
+    <Class id="H-H" type="Class">
+      <ClassName id="h-h" type="String" value="H" />
+    </Class>
+    <Class id="C-C-C" type="Class">
+      <ClassName id="c-c-c" type="String" value="C" />
+    </Class>
+    <Class id="D-D-D" type="Class">
+      <ClassName id="d-d-d" type="String" value="D" />
+    </Class>
+    <Class id="E-E" type="Class">
+      <ClassName id="e-e" type="String" value="E" />
+    </Class>
+    <Class id="F-F" type="Class">
+      <ClassName id="f-f" type="String" value="F" />
+    </Class>
+  </model>
+  <fm>
+    <feature name="base" type="mandatory" parent="root">
+      <element id="A-A-A-A" />
+      <element id="a-a-a-a" />
+      <element id="B-B-B-B" />
+      <element id="b-b-b-b" />
+    </feature>
+    <feature name="f1" type="optional" parent="base">
+      <element id="I-I-I" />
+      <element id="i-i-i" />
+      <element id="J-J-J" />
+      <element id="j-j-j" />
+    </feature>
+    <feature name="f2" type="optional" parent="base">
+      <element id="G-G" />
+      <element id="g-g" />
+      <element id="H-H" />
+      <element id="h-h" />
+    </feature>
+    <feature name="f3" type="optional" parent="base">
+      <element id="E-E" />
+      <element id="F-F" />
+      <element id="e-e" />
+      <element id="f-f" />
+    </feature>
+    <feature name="f4" type="optional" parent="base">
+      <element id="C-C-C" />
+      <element id="D-D-D" />
+      <element id="c-c-c" />
+      <element id="d-d-d" />
+    </feature>
+    <featureGroup id="variants" type="alternative" parent="root">
+      <feature name="P1_Variant" type="variant" parent="variants" />
+      <feature name="P2_Variant" type="variant" parent="variants" />
+      <feature name="P3_Variant" type="variant" parent="variants" />
+      <feature name="P4_Variant" type="variant" parent="variants" />
+    </featureGroup>
+    <constraint left="P1_Variant" right="¬f1" operator="implies" />
+    <constraint left="P2_Variant" right="f1" operator="implies" />
+    <constraint left="P1_Variant" right="¬f2" operator="implies" />
+    <constraint left="P2_Variant" right="¬f2" operator="implies" />
+    <constraint left="P3_Variant" right="f2" operator="implies" />
+    <constraint left="P1_Variant" right="f3" operator="implies" />
+    <constraint left="P2_Variant" right="f3" operator="implies" />
+    <constraint left="P3_Variant" right="¬f3" operator="implies" />
+    <constraint left="P1_Variant" right="f4" operator="implies" />
+    <constraint left="P2_Variant" right="f4" operator="implies" />
+    <constraint left="P3_Variant" right="f4" operator="implies" />
+    <constraint left="P4_Variant" right="¬f4" operator="implies" />
+    <constraint left="P4_Variant" right="f1" operator="implies" />
+    <constraint left="P4_Variant" right="f2" operator="implies" />
+    <constraint left="P4_Variant" right="¬f3" operator="implies" />
+  </fm>
+</xmi>

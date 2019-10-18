@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="notpad3">
+
+    <Class id="c1" type="Class">
+      <ClassName id="c2" type="String" value="Actions" />
+      
+
+      <ClassOperation id="c3" type="Operation">
+        <OperationName id="c4" type="String" value="copy" />
+      </ClassOperation>
+
+      <ClassOperation id="c5" type="Operation">
+        <OperationName id="c6" type="String" value="cut" />
+      </ClassOperation>
+
+
+      <ClassOperation id="c7" type="Operation">
+        <OperationName id="c8" type="String" value="pastE" />
+      </ClassOperation>
+    
+
+    </Class>
+
+
+
+
+
+    <Class id="c9" type="Class">
+      <ClassName id="c10" type="String" value="NotePad" />
+      
+      <ClassAttribute id="c11" type="Attribute">
+        <AttributeName id="c12" type="String" value="copyButton" />
+      </ClassAttribute>
+
+      <ClassAttribute id="c13" type="Attribute">
+        <AttributeName id="c14" type="String" value="cutButton" />
+      </ClassAttribute>
+
+      <ClassAttribute id="c15" type="Attribute">
+        <AttributeName id="c16" type="String" value="pasteButton" />
+      </ClassAttribute>
+
+     
+
+    </Class>
+
+
+
+  <Class id="c17" type="Class">
+      <ClassName id="c18" type="String" value="ExampleFileFilter" />
+      </Class>
+
+  
+</xmi>

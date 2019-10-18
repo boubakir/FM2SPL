@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="uml">
+  	<role name="Class" level="1" category="1"/>
+	<role name="ClassName" level="2" category="3"/>
+	<role name="ClassAttribute" level="2" category="1"/>
+	<role name="ClassOperation" level="2" category="1"/>
+	<role name="AttributeName" level="3" category="3"/>
+	<role name="AttributeType" level="3" category="3"/>
+	<role name="OperationName" level="3" category="3"/>
+	<role name="OperationType" level="3" category="3"/>
+	<role name="Parameter" level="3" category="2"/>
+	<role name="ParameterName" level="4" category="3"/>
+	<role name="ParameterType" level="4" category="3"/>
+</xmi>

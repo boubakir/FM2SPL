@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="NotePadSPL">
+  <model type="">
+    <Class id="e1" type="Class">
+      <ClassName id="e3" type="String" value="Actions" />
+      <ClassAttribute id="e4" type="Attribute">
+        <AttributeName id="e17" type="String" value="findWord" />
+      </ClassAttribute>
+      <ClassOperation id="e5" type="Operation">
+        <OperationName id="e18" type="String" value="copy" />
+      </ClassOperation>
+      <ClassOperation id="e6" type="Operation">
+        <OperationName id="e19" type="String" value="cut" />
+      </ClassOperation>
+      <ClassOperation id="e7" type="Operation">
+        <OperationName id="e20" type="String" value="pastE" />
+      </ClassOperation>
+      <ClassOperation id="e8" type="Operation">
+        <OperationName id="e21" type="String" value="finD" />
+      </ClassOperation>
+      <ClassOperation id="e9" type="Operation">
+        <OperationName id="e22" type="String" value="findNext" />
+      </ClassOperation>
+    </Class>
+    <Class id="e2" type="Class">
+      <ClassName id="e10" type="String" value="NotePad" />
+      <ClassAttribute id="e11" type="Attribute">
+        <AttributeName id="e23" type="String" value="copyButton" />
+      </ClassAttribute>
+      <ClassAttribute id="e12" type="Attribute">
+        <AttributeName id="e24" type="String" value="cutButton" />
+      </ClassAttribute>
+      <ClassAttribute id="e13" type="Attribute">
+        <AttributeName id="e25" type="String" value="pasteButton" />
+      </ClassAttribute>
+      <ClassAttribute id="e14" type="Attribute">
+        <AttributeName id="e26" type="String" value="finD" />
+      </ClassAttribute>
+      <ClassAttribute id="e15" type="Attribute">
+        <AttributeName id="e27" type="String" value="findButton" />
+      </ClassAttribute>
+      <ClassAttribute id="e16" type="Attribute">
+        <AttributeName id="e28" type="String" value="findNext" />
+      </ClassAttribute>
+      <ClassAttribute id="e35" type="Attribute">
+        <AttributeName id="e42" type="String" value="undo" />
+      </ClassAttribute>
+      <ClassAttribute id="e36" type="Attribute">
+        <AttributeName id="e43" type="String" value="undoAction" />
+      </ClassAttribute>
+      <ClassAttribute id="e37" type="Attribute">
+        <AttributeName id="e44" type="String" value="redoAction" />
+      </ClassAttribute>
+      <ClassAttribute id="e38" type="Attribute">
+        <AttributeName id="e45" type="String" value="undoButton" />
+      </ClassAttribute>
+      <ClassAttribute id="e39" type="Attribute">
+        <AttributeName id="e46" type="String" value="reddoButton" />
+      </ClassAttribute>
+    </Class>
+    <Class id="e29" type="Class">
+      <ClassName id="e32" type="String" value="ExamplFileFilter" />
+      <ClassName id="e33" type="String" value="ExampleFileFilter" />
+      <ClassName id="e34" type="String" value="ExamFileFilter" />
+    </Class>
+    <Class id="e30" type="Class">
+      <ClassName id="e40" type="String" value="RedoAction" />
+    </Class>
+    <Class id="e31" type="Class">
+      <ClassName id="e41" type="String" value="UndoAction" />
+    </Class>
+  </model>
+  <fm>
+    <feature name="base" type="mandatory" parent="root">
+      <element id="e1" />
+      <element id="e3" />
+      <element id="e2" />
+      <element id="e10" />
+    </feature>
+    <feature name="f1" type="optional" parent="base">
+      <element id="e35" />
+      <element id="e42" />
+      <element id="e36" />
+      <element id="e43" />
+      <element id="e37" />
+      <element id="e44" />
+      <element id="e38" />
+      <element id="e45" />
+      <element id="e39" />
+      <element id="e46" />
+      <element id="e32" />
+      <element id="e40" />
+      <element id="e31" />
+      <element id="e41" />
+    </feature>
+    <feature name="f2" type="optional" parent="base">
+      <element id="e5" />
+      <element id="e18" />
+      <element id="e6" />
+      <element id="e19" />
+      <element id="e7" />
+      <element id="e20" />
+      <element id="e11" />
+      <element id="e23" />
+      <element id="e12" />
+      <element id="e24" />
+      <element id="e13" />
+      <element id="e25" />
+    </feature>
+    <feature name="f3" type="optional" parent="base">
+      <element id="e4" />
+      <element id="e8" />
+      <element id="e9" />
+      <element id="e14" />
+      <element id="e15" />
+      <element id="e16" />
+      <element id="e17" />
+      <element id="e21" />
+      <element id="e22" />
+      <element id="e26" />
+      <element id="e27" />
+      <element id="e28" />
+    </feature>
+    <feature name="f4" type="optional" parent="base">
+      <element id="e29" />
+    </feature>
+    <featureGroup id="variants" type="alternative" parent="root">
+      <feature name="notpad1_Variant" type="variant" parent="variants" />
+      <feature name="notpad2_Variant" type="variant" parent="variants" />
+      <feature name="notpad3_Variant" type="variant" parent="variants" />
+      <feature name="notpad4_Variant" type="variant" parent="variants" />
+      <feature name="notpad5_Variant" type="variant" parent="variants" />
+      <feature name="notpad6_Variant" type="variant" parent="variants" />
+    </featureGroup>
+    <featureGroup id="e29-dooooooooooo-c17-b15-a29_ClassName" type="alternative" parent="f4">
+      <feature name="alt1" type="alternative" parent="e29-dooooooooooo-c17-b15-a29_ClassName">
+        <element id="e33" />
+      </feature>
+      <feature name="alt2" type="alternative" parent="e29-dooooooooooo-c17-b15-a29_ClassName">
+        <element id="e34" />
+      </feature>
+      <feature name="alt3" type="alternative" parent="e29-dooooooooooo-c17-b15-a29_ClassName">
+        <element id="e32" />
+      </feature>
+    </featureGroup>
+    <constraint left="notpad2_Variant" right="f1 AND alt2 AND f4" operator="implies" />
+    <constraint left="notpad1_Variant" right="f2 AND alt1 AND f3 AND f4" operator="implies" />
+    <constraint left="notpad3_Variant" right="f2 AND alt1 AND f4" operator="implies" />
+    <constraint left="notpad4_Variant" right="f2 AND f3 AND alt1 AND f4" operator="implies" />
+    <constraint left="notpad5_Variant" right="f2 AND f3 AND alt3 AND f4" operator="implies" />
+    <constraint left="notpad6_Variant" right="f2 AND f3" operator="implies" />
+  </fm>
+</xmi>

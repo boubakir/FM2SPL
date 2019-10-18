@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="notpad6">
+
+    <Class id="f1" type="Class">
+      <ClassName id="f2" type="String" value="Actions" />
+      <ClassAttribute id="f3" type="Attribute">
+        <AttributeName id="f4" type="String" value="findWord" />
+      </ClassAttribute>
+
+      <ClassOperation id="f5" type="Operation">
+        <OperationName id="f6" type="String" value="copy" />
+      </ClassOperation>
+
+
+      <ClassOperation id="f7" type="Operation">
+        <OperationName id="f8" type="String" value="cut" />
+      </ClassOperation>
+
+      <ClassOperation id="f9" type="Operation">
+        <OperationName id="f10" type="String" value="pastE" />
+      </ClassOperation>
+
+
+      <ClassOperation id="f11" type="Operation">
+        <OperationName id="f12" type="String" value="finD" />
+      </ClassOperation>
+
+
+      <ClassOperation id="f13" type="Operation">
+        <OperationName id="f14" type="String" value="findNext" />
+      </ClassOperation>
+
+    </Class>
+
+    <Class id="f15" type="Class">
+      <ClassName id="f16" type="String" value="NotePad" />
+      
+      <ClassAttribute id="f17" type="Attribute">
+        <AttributeName id="f18" type="String" value="copyButton" />
+      </ClassAttribute>
+      <ClassAttribute id="f19" type="Attribute">
+        <AttributeName id="f20" type="String" value="cutButton" />
+      </ClassAttribute>
+
+     <ClassAttribute id="f21" type="Attribute">
+        <AttributeName id="f22" type="String" value="pasteButton" />
+      </ClassAttribute>
+
+     <ClassAttribute id="f23" type="Attribute">
+        <AttributeName id="f24" type="String" value="finD" />
+      </ClassAttribute>
+      <ClassAttribute id="f25" type="Attribute">
+        <AttributeName id="f26" type="String" value="findButton" />
+      </ClassAttribute>
+
+      <ClassAttribute id="f27" type="Attribute">
+        <AttributeName id="f28" type="String" value="findNext" />
+      </ClassAttribute>
+
+    </Class>
+
+
+
+  
+</xmi>

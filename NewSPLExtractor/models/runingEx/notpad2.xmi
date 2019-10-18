@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi id="notpad2">
+
+    <Class id="b1" type="Class">
+      <ClassName id="b2" type="String" value="Actions" />
+      </Class>
+
+    <Class id="b3" type="Class">
+      <ClassName id="b4" type="String" value="NotePad" />
+      
+      <ClassAttribute id="b5" type="Attribute">
+        <AttributeName id="b6" type="String" value="undo" />
+      </ClassAttribute>
+
+      <ClassAttribute id="b7" type="Attribute">
+        <AttributeName id="b8" type="String" value="undoAction" />
+      </ClassAttribute>
+
+      <ClassAttribute id="b9" type="Attribute">
+        <AttributeName id="b10" type="String" value="redoAction" />
+      </ClassAttribute>
+
+      <ClassAttribute id="b11" type="Attribute">
+        <AttributeName id="b12" type="String" value="undoButton" />
+      </ClassAttribute>
+      <ClassAttribute id="b13" type="Attribute">
+        <AttributeName id="b14" type="String" value="reddoButton" />
+      </ClassAttribute>
+
+    </Class>
+
+
+
+    <Class id="b15" type="Class">
+       <ClassName id="b16" type="String" value="ExamFileFilter" />
+    </Class>
+
+    <Class id="b17" type="Class">
+       <ClassName id="b18" type="String" value="RedoAction" />
+    </Class>
+    <Class id="b19" type="Class">
+       <ClassName id="b20" type="String" value="UndoAction" />
+    </Class>
+
+</xmi>
